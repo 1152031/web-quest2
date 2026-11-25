@@ -21,10 +21,9 @@
     <li><a href="#guestbook">留言板</a></li>
   </ul>
 </nav>
-...
-<section id="why"> ... </section>
-<section id="rank"> ... </section>
-<section id="guestbook"> ... </section>
+<section id="why"> 為啥要看 </section>
+<section id="rank"> 推薦 </section>
+<section id="guestbook"> 留言板 </section>
 <section id="why">
   <h2>為什麼要一定要看？</h2>
   <ol>
@@ -44,6 +43,43 @@
   <tr><td>2.</td><td>人與人間發生的事</td><td>任何時候</td></tr>
   <tr><td>3.</td><td>結局</td><td>心情很好的週末</td></tr>
 </table>
+
+<section id="guestbook">
+      <h2>✍️ 留言板</h2>
+      <p>你被推坑成功了嗎？留下你的心得吧！</p>
+      <form action="#">
+        <div>
+          <label for="nickname">暱稱</label>
+          <input type="text" id="nickname" placeholder="例如：動漫狂粉">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com">
+        </div>
+        <fieldset>
+          <legend>你的入坑程度</legend>
+          <label><input type="radio" name="level" checked> 觀望中 </label>
+          <label><input type="radio" name="level"> 已入坑 </label>
+          <label><input type="radio" name="level"> 坑底住民 </label>
+        </fieldset>
+        <div>
+          <label for="favorite">最愛集數</label>
+          <select id="favorite">
+            <option>1</option>
+            <option>3</option>
+            <option>5</option>
+            <option>12</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">想說的話</label>
+          <textarea id="message" rows="4" placeholder="寫下你的入坑心得…"></textarea>
+        </div>
+        <label><input type="checkbox"> 我願意收到下一次的推坑通知</label>
+        <button type="submit">送出留言 </button>
+      </form>
+    </section>
+
 <p>想看的話：<a href="https://www.linetv.tw/drama/23305/eps/1" target="_blank">Line TV線上看</a></p>
 
 <iframe width="100%" height="315"
